@@ -1,21 +1,22 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'http://localhost:3000/portfolio',
+  title: 'Tiago S.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
-  picture: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
+  name: 'Tiago Santos',
+  role: 'Software Engineer',
+  picture: 'FOTO-PERFIL.jpg',
 
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'I am a Full Stack Developer with a strong foundation in web development, databases, and system integration. I have built real-world projects such as a full-stack e-commerce application and an AI-powered WhatsApp assistant, working with technologies like React, ASP.NET Core, Node.js, SQL, and APIs. I also have experience in customer-facing roles, which helps me communicate clearly, understand user needs, and deliver practical, well-structured solutions.',
+  resume:
+    'https://drive.google.com/file/d/191FaxeESGjL62lESF5sMbSMYNZISF60b/view?usp=sharing',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/tiago26/',
+    github: 'https://github.com/Tiaguinho2002',
   },
 }
 
@@ -23,30 +24,47 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Feme-bot',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'cleanfolio.png',
+      "An automated assistant for WhatsApp that integrates Google Gemini's generative AI with the WhatsApp Web.js framework, enabling intelligent conversations, automatic replies, and real-time message processing.",
+    stack: [
+      'TypeScript',
+      'CSS',
+      'React',
+      'Node.js',
+      'Google Gemini API',
+      'WhatsApp Web.js',
+    ],
+    sourceCode: 'https://github.com/Tiaguinho2002/feme-wpp-bot',
+    livePreview:
+      'https://www.linkedin.com/feed/update/urn:li:activity:7389447722556260352/',
+    image: 'feme-bot1.jpeg',
   },
   {
-    name: 'Project 2',
+    name: 'Fitness-Store',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'Full stack e-commerce developed to simulate a real online supplement store, featuring product catalog, shopping cart and checkout flow. The project includes a responsive frontend and a robust backend with secure data persistence, focusing on usability, performance and real-world business rules.',
+    stack: [
+      'TypeScript',
+      'React',
+      'SASS',
+      'C#',
+      'ASP.NET Core',
+      'SQL',
+      'Mercado Pago API',
+    ],
     sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'https://github.githubassets.com/assets/GitHub-Logo-ee398b662d42.png',
+    livePreview: 'https://github.com/Tiaguinho2002/Fitness-Store',
+    image: 'fitness.jpg',
   },
   {
-    name: 'Project 3',
+    name: 'Portfolio Website',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'You are currently viewing my portfolio website, which showcases my projects, skills, and background as a software engineer. Built with React, this site is designed to be responsive and user-friendly, providing an overview of my work and how to contact me.',
+    stack: ['React', 'TypeScript', 'HTML', 'Css'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    image: 'portfolio.png',
   },
 ]
 
@@ -58,18 +76,24 @@ const skills = [
   'JavaScript',
   'TypeScript',
   'React',
-  'Redux',
+  'C#',
+  'ASP.NET Core',
+  'Node.js',
+  'Express.js',
+  'GenIA',
+  'SQL',
+  'NoSQL',
+  'RESTful APIs',
+  'Docker',
   'SASS',
   'Material UI',
   'Git',
   'CI/CD',
-  'Jest',
-  'Enzyme',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'tiago.zidoro18@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
