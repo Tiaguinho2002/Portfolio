@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'http://localhost:3000/portfolio',
+  homepage: 'https://tiaguinho2002.github.io/Portfolio/',
   title: 'Tiago S.',
 }
 
@@ -62,8 +62,8 @@ const projects = [
     description:
       'You are currently viewing my portfolio website, which showcases my projects, skills, and background as a software engineer. Built with React, this site is designed to be responsive and user-friendly, providing an overview of my work and how to contact me.',
     stack: ['React', 'TypeScript', 'HTML', 'Css'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/Tiaguinho2002/Portfolio',
+    livePreview: 'https://tiaguinho2002.github.io/Portfolio/',
     image: 'portfolio.png',
   },
 ]
