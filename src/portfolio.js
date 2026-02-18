@@ -53,8 +53,8 @@ const projects = [
       'SQL',
       'Mercado Pago API',
     ],
-    sourceCode: 'https://fitness-store-jade.vercel.app/',
-    livePreview: 'https://github.com/Tiaguinho2002/Fitness-Store',
+    sourceCode: 'https://github.com/Tiaguinho2002/Fitness-Store',
+    livePreview: 'https://fitness-store-jade.vercel.app/',
     image: 'fitness.jpg',
   },
   {
